@@ -18,7 +18,17 @@ public class StringManipulationsMore {
 		partialString=str.substring(11, 16);
 		System.out.println(partialString);
 		
+		String a="123456789";
+		String b="abcdf";
+		String c="";
 		
+		for(int i=0; i<a.length(); i+=3) {
+			int x=i+1;
+			c=c+a.substring(i, x);
+			
+		}
+		
+		System.out.println(c);
 		
 		
 		

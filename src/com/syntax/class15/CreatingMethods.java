@@ -5,7 +5,7 @@ public class CreatingMethods {
 	//we want to create a method that will accept marks
 	//based on the marks it will return grade
 	
-	char getGrade(int a) {
+	    char getGrade(int a) {
 		char grade;
 		
 		if(a>90) {

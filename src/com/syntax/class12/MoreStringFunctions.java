@@ -41,7 +41,11 @@ public class MoreStringFunctions {
 		System.out.println(subject);
 		System.out.println(subject.replaceFirst("e", "g"));
 		
-
+		String a= "AaaA";
+		String b="a";
+		String c= "("+b+")";
+		a=a.replace(b, c);
+		System.out.println(a);
 	}
 
 }
