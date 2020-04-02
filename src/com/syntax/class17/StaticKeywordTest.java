@@ -23,6 +23,8 @@ public class StaticKeywordTest {
 		sk2.color="red";
 		sk2.memory=128;
 		sk2.brand="Nokia";
+		
+		//not right way to access static method
 		sk2.displayGeneralInfo();
 		sk1.displayGeneralInfo();
 		sk.displayGeneralInfo();
