@@ -10,19 +10,18 @@ public class Employee {
 	double salary;//accessible within same package
 	private long ssn;//accessible ONLY within same class
 	
-	public static void method1() {
-		System.out.println("Public method");
+	private static void  method1() {
+		System.out.println("Private Method");
 	}
-	protected void method2() {
-		System.out.println("Protected method");
+	void method2() {
+		System.out.println("Default Method");
 	}
-	void method3() {
-		System.out.println("defualt method");
+	protected void method3() {
+		System.out.println("Protected Method");
 	}
-	private void method4() {
-		System.out.println("private method");
+	public void method4() {
+		System.out.println("Public Method");
 	}
-	
 	public static void main(String[] args) {
 		
 		Employee emp=new Employee();
