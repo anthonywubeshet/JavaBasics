@@ -9,11 +9,11 @@ public class ConstructorDemo {
 		System.out.println("I am non argument constructor");
 	}
 	
-	ConstructorDemo(String str){
+	protected ConstructorDemo(String str){
 		System.out.println("I am a constructor with 1 String parameter "+str);
 	}
 	
-	ConstructorDemo(int num){
+	private ConstructorDemo(int num){
 		System.out.println("I am a constructor with 1 integer value "+num);
 	}
 	
