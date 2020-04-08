@@ -8,7 +8,8 @@ public class practice {
 	    if(i==5 || i==6){continue;}}
 		
 		
-		
+		String i="hello";
+		System.out.println(i.length());
 		
 		
 		

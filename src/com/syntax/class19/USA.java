@@ -26,6 +26,9 @@ public class USA {
 		
 		USA state=new USA("Va","Richmond");
 		state.displayInfo();
+		
+		state=new USA("Georgia","Atlanta");
+		state.displayInfo();
 	}
 
 }
