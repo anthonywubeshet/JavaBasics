@@ -43,7 +43,7 @@ class TD extends Bank{
 	}
 	
 	double chargeFee() {
-		if(money>1000) {
+		if(money<1000) {
 			fee=money*.03;
 		}else {
 			fee=0;
