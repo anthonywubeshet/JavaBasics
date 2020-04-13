@@ -16,6 +16,11 @@ public class CarTest {
 			c.display();
 			
 		}
+		
+		for(int i=0; i<cars.length; i++) {
+			cars[i].start();
+			cars[i].display();
+		}
 
 	}
 
