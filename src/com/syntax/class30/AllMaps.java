@@ -46,13 +46,13 @@ public class AllMaps {
 		
 		//get all values using loop
 		for(int val:shopping.values()) {
-			System.out.println("Valie:"+val);
+			System.out.println("Value:"+val);
 		}
 		
 		//get all values using iterator
 		Iterator<Integer> iterator=shopping.values().iterator();
 		while(iterator.hasNext()) {
-			System.out.println(iterator.next());
+			System.out.println("value ="+iterator.next());
 		}
 		
 		
